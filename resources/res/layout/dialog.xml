@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white_color" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/public_title_size" android:textColor="@color/button_text_normal_color" android:gravity="start" android:layout_gravity="center_vertical" android:id="@+id/title" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/tips_title_size" android:textColor="@color/button_text_normal_color" android:layout_gravity="center_vertical" android:id="@+id/message" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@+id/bottom" android:paddingTop="10dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="40dp">
+        <TextView android:textSize="@dimen/tips_title_size" android:textColor="@color/dialog_bottom_text_color" android:gravity="center" android:id="@+id/negativeButton" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="72dp" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/tips_title_size" android:textColor="@color/dialog_bottom_text_color" android:gravity="center" android:id="@+id/positiveButton" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="72dp" android:singleLine="true" android:layout_marginStart="10dp"/>
+    </LinearLayout>
+</LinearLayout>

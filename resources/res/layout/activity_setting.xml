@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white_color" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gigaset.update.view.TitleContentView android:id="@+id/check_cycle" android:background="@drawable/setting_item_selector" android:layout_width="match_parent" android:layout_height="wrap_content" app:content="@string/setting_autocheck_hint" app:title="@string/setting_autocheck"/>
+    <com.gigaset.update.view.TitleContentView android:id="@+id/update_wifi_only" android:background="@drawable/setting_item_selector" android:layout_width="match_parent" android:layout_height="wrap_content" app:content="@string/setting_only_wifi_hint" app:showBox="true" app:title="@string/setting_only_wifi"/>
+    <com.gigaset.update.view.TitleContentView android:id="@+id/wifi_auto_download" android:background="@drawable/setting_item_selector" android:layout_width="match_parent" android:layout_height="wrap_content" app:content="@string/setting_autodownload_hint" app:showBox="true" app:title="@string/setting_autodownload"/>
+    <com.gigaset.update.view.TitleContentView android:id="@+id/about" android:background="@drawable/setting_item_selector" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/about_wireless_update"/>
+</LinearLayout>

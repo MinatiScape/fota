@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <CheckBox android:id="@+id/checkBox" android:background="@drawable/options_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/upgrade_checkbox_selector" android:layout_marginEnd="@dimen/ten_dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="@dimen/tips_title_size" android:textColor="@color/setting_small_text_color" android:id="@+id/title" android:background="@drawable/options_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upgrade_agreement"/>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/twelve_sp" android:textColor="@color/setting_small_text_color" android:id="@+id/content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/three_dp" android:text="@string/upgrade_agreement_content"/>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
